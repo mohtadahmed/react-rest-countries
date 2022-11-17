@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+.country-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.country{
+  background-color: beige;
+  padding: 10px;
+}
+
+.country img{
+  width: 40%;
+}
